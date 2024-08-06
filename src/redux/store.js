@@ -13,7 +13,7 @@ import {
 
 import storage from "redux-persist/lib/storage";
 
-import filtersSlice from "./filtersSlice";
+import filtersSlice from "./filterSlice";
 
 import contactsReducer from "./contactsSlice";
 

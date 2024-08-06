@@ -48,13 +48,13 @@ export default function ContactForm() {
         <div className={s.inputGroup}>
           <label htmlFor={nameId}>Name</label>
           <Field className={s.input} id={nameId} name="name" />
-          <ErrorMessage name="name" component="span" className={css.error} />
+          <ErrorMessage name="name" component="span" className={s.error} />
         </div>
 
         <div className={s.inputGroup}>
           <label htmlFor={numberId}>Number</label>
           <Field className={s.input} id={numberId} name="number" />
-          <ErrorMessage name="number" component="span" className={css.error} />
+          <ErrorMessage name="number" component="span" className={s.error} />
         </div>
 
         <button type="submit" className={s.button}>
